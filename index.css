@@ -1,0 +1,104 @@
+body{
+    font-family: 'Red Hat Display', sans-serif;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(225, 49%, 75%);
+}
+
+.card{
+    width: 400px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 15px;
+    color: hsl(225, 17%, 46%);
+    font-size: 16px;
+    padding-bottom: 30px;
+}
+
+.bg-img{
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    display: block;
+}
+
+.main{
+    padding: 0 30px;
+}
+
+h2{
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+    margin: 40px 0 20px 0;
+}
+
+p{
+    
+}
+
+.middle-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.mid-details{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.music-logo{
+    width: 40px;
+}
+
+.plan{
+    font-weight: 700;
+    color: hsl(223, 47%, 23%);
+    display: block;
+}
+
+a{
+    font-weight: 700;
+}
+
+.mid-content{
+    margin-left: 18px;
+}
+
+button{
+    width: 100%;
+    padding: 15px;
+    display: block;
+    font-weight: 900;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn1{
+    background-color: hsl(245, 75%, 52%);
+    color: #fff;
+    font-weight: 700;
+}
+
+.btn2{
+    background-color: #fff;
+    color: hsl(225, 17%, 46%);
+    margin: 10px 0 0 0;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
